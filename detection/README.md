@@ -15,11 +15,11 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 **Figure 2. mAP50 and mAP50-95 on the training dataset at various epoches.**
 
 
-| | Accuracy | Precison | Recall | F1 | 
+| | Precison | Recall | mAP50 | mAP50-95 |
 | --- | --- | --- | --- | --- |
-| Train | 0.987 | 0.986 | 0.986 | 0.986 |
-| Validation | 0.955 | 0.954 | 0.954 | 0.954 |
-| Test | 0.957 | 0.955 | 0.955 | 0.955 |
+| Train | 0.949 (0.862) | 0.976 (0.887) | 0.986 (0.896) | 0.600 (0.286) |
+| Validation | 0.928 (0.868) | 0.987 (0.962) | 0.978 (0.927) | 0.636 (0.287) |
+| Test | 0.963 (0.862) | 0.975 (0.940) | 0.982 (0.920) | 0.587 (285) |
 
 **Table 1. Summary of various metrics on train/validation/test dataset.**
 
