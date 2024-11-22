@@ -1,8 +1,10 @@
 ## General
-This example mainly demonstrates the process of funetuning vision transformer model for classification tasks. 
+This example demonstrates funetuning the YOLO model for object detection. 
 
 ## Dataset
-The dataset is from Torchvison (https://pytorch.org/vision/main/generated/torchvision.datasets.EuroSAT.html) which consists of satellite land images with ten classes.
+The dataset is the Penn-Fudan Database which consists of 170 pedestrian images collected from University of Pennsylvania and Fudan University.
+
+Dataset link: https://www.cis.upenn.edu/~jshi/ped_html/
 
 ## Model
 The model is the vision transformer (ViT) with a classification head (ViTForImageClassification). The classification layer weights are finetuned for 50 epoches, with all other model parameters frozen.
