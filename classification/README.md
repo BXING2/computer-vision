@@ -9,6 +9,7 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 
 ## Evaluation
 ![Alt text](figures/train_valid_loss.png)
+<img "figures/train_valid_acc.png">
 
 
 ## Reference
