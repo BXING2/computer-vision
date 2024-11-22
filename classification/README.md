@@ -12,7 +12,7 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 
 Figure 1. Loss and accuracy on the train and valiation dataset. 
 
-<img src="figures/conf_matrix.png" width="400" />
+<img src="figures/conf_matrix.tif" width="400" />
 
 Figure 2. Confusion matrix for 10 classes.
 
