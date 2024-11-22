@@ -7,7 +7,7 @@ The dataset is the Penn-Fudan Database which consists of 170 pedestrian images c
 Dataset link: https://www.cis.upenn.edu/~jshi/ped_html/
 
 ## Model
-The model is the vision transformer (ViT) with a classification head (ViTForImageClassification). The classification layer weights are finetuned for 50 epoches, with all other model parameters frozen.
+The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralytics. The weights in detection head are finetuned for 100 epoches, with all other model parameters in the backbone frozen.
 
 ## Evaluation
 <img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
