@@ -10,7 +10,7 @@ Dataset link: https://www.cis.upenn.edu/~jshi/ped_html/
 The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralytics. The weights in detection head are finetuned for 100 epoches, with all other model parameters in the backbone frozen.
 
 ## Evaluation
-<img src="figures/map.tif" width="400" />
+<img src="figures/map.png" width="400" />
 
 **Figure 2. mAP50 and mAP50-95 on the training dataset at various epoches.**
 
