@@ -10,11 +10,13 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 ## Evaluation
 <img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
 
-Figure 1. Loss and accuracy on the train and valiation dataset. 
+**Figure 1. Loss and accuracy on the train and valiation dataset. **
+
 
 <img src="figures/conf_matrix.tif" width="400" />
 
-Figure 2. Confusion matrix for 10 classes.
+**Figure 2. Confusion matrix for 10 classes.**
+
 
 | | Accuracy | Precison | Recall | F1 | 
 | --- | --- | --- | --- | --- |
@@ -22,6 +24,6 @@ Figure 2. Confusion matrix for 10 classes.
 | Validation | 0.955 | 0.954 | 0.954 | 0.954 |
 | Test | 0.957 | 0.955 | 0.955 | 0.955 |
 
-Table 1. Summary of various metrics on train/validation/test dataset.
+**Table 1. Summary of various metrics on train/validation/test dataset.**
 
 ## Reference
