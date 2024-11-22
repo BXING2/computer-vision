@@ -15,7 +15,7 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 
 <img src="figures/conf_matrix.tif" width="400" />
 
-**Figure 2. Confusion matrix for 10 classes.**
+**Figure 2. Confusion matrix for 10 classes on the test dataset.**
 
 
 | | Accuracy | Precison | Recall | F1 | 
@@ -26,6 +26,9 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 
 **Table 1. Summary of various metrics on train/validation/test dataset.**
 
+
 Via finetuning the classification head, the model achieve an accuracy of 95.7% on the test dataset.
 
 ## Reference
+1. https://huggingface.co/docs/transformers/main/en/model_doc/vit
+2. Alexey, Dosovitskiy. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv: 2010.11929 (2020).
