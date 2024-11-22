@@ -1,5 +1,5 @@
 ## General
-This example mainly demonstrates the process of funetuning ViT model for classification tasks. 
+This example mainly demonstrates the process of funetuning vision transformer model for classification tasks. 
 
 ## Dataset
 The dataset is from Torchvison (https://pytorch.org/vision/main/generated/torchvision.datasets.EuroSAT.html) which consists of satellite land images with ten classes.
