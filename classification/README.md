@@ -16,10 +16,12 @@ Figure 1. Loss and accuracy on the train and valiation dataset.
 
 Figure 2. Confusion matrix for 10 classes.
 
-| | Accuracy | Preciso | Recall | F1 | 
+| | Accuracy | Precison | Recall | F1 | 
 | --- | --- | --- | --- | --- |
 | Train | 0.987 | 0.986 | 0.986 | 0.986 |
 | Validation | 0.955 | 0.954 | 0.954 | 0.954 |
 | Test | 0.957 | 0.955 | 0.955 | 0.955 |
+
+Table 1. Summary of various metrics on train/validation/test dataset.
 
 ## Reference
