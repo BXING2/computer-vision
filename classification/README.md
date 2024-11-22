@@ -10,7 +10,7 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 ## Evaluation
 <img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
 
-****Figure 1. Loss and accuracy on the train and valiation dataset.****
+**Figure 1. Loss and accuracy on the train and valiation dataset.**
 
 
 <img src="figures/conf_matrix.tif" width="400" />
@@ -25,5 +25,7 @@ The model is the vision transformer (ViT) with a classification head (ViTForImag
 | Test | 0.957 | 0.955 | 0.955 | 0.955 |
 
 **Table 1. Summary of various metrics on train/validation/test dataset.**
+
+Via finetuning the classification head, the model achieve an accuracy of 95.7% on the test dataset.
 
 ## Reference
