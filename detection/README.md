@@ -10,14 +10,9 @@ Dataset link: https://www.cis.upenn.edu/~jshi/ped_html/
 The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralytics. The weights in detection head are finetuned for 100 epoches, with all other model parameters in the backbone frozen.
 
 ## Evaluation
-<img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
+<img src="figures/map.tif" width="400" />
 
-**Figure 1. Loss and accuracy on the train and valiation dataset.**
-
-
-<img src="figures/conf_matrix.tif" width="400" />
-
-**Figure 2. Confusion matrix for 10 classes on the test dataset.**
+**Figure 2. mAP50 and mAP50-95 on the training dataset at various epoches.**
 
 
 | | Accuracy | Precison | Recall | F1 | 
@@ -28,6 +23,9 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 
 **Table 1. Summary of various metrics on train/validation/test dataset.**
 
+<img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
+
+**Figure 1. Loss and accuracy on the train and valiation dataset.**
 
 Via finetuning the classification head, the model achieve an accuracy of 95.7% on the test dataset.
 
