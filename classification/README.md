@@ -8,6 +8,7 @@ The dataset is from Torchvison (https://pytorch.org/vision/main/generated/torchv
 The model is the vision transformer (ViT) with a classification head (ViTForImageClassification). The classification layer weights are finetuned for 50 epoches, with all other model parameters frozen.
 
 ## Evaluation
+![Alt text](figures/train_valid_loss.png)
 
 
 ## Reference
