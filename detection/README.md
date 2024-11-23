@@ -12,7 +12,7 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 ## Evaluation
 <img src="figures/map.png" width="400" />
 
-**Figure 2. mAP50 and mAP50-95 on the training dataset at various epoches.**
+**Figure 1. mAP50 and mAP50-95 on the training dataset at various epoches.**
 
 | | Precison | Recall | mAP50 | mAP50-95 |
 | --- | --- | --- | --- | --- |
@@ -29,9 +29,9 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 
 **Table 1. Summary of various metrics on train/validation/test dataset.**
 
-<img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
+<img src="figures/PennPed00029.png" width="400" /> <img src="figures/PennPed00061.png" width="400" />
 
-**Figure 1. Loss and accuracy on the train and valiation dataset.**
+**Figure 2. Examples of pedestrian detection on the test dataset.**
 
 Via finetuning the classification head, the model achieve an accuracy of 95.7% on the test dataset.
 
