@@ -25,9 +25,9 @@ The model is the YOLOv8 (You Only Look Once) with a segmentation head from Ultra
 
 <img src="figures/PennPed00055.png" height="300" />    <img src="figures/FudanPed00074.png" height="300" />
 
-**Figure 2. Examples of pedestrian detection on the test dataset.**
+**Figure 2. Examples of instance segmentation of pedestrians on the test dataset.**
 
-The original YOLO model exhibits a good performance on the detection task. With finetuning on around 100 images, the model performance get a slight improvement as shown in Table 1. 
+With finetuning on around 100 images, the model shows improvement on different metrics including precision, recall, mAP50 and mAP50-95, etc.
 
 ## Reference
 1. https://docs.ultralytics.com
