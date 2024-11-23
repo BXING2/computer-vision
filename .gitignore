@@ -1,6 +1,6 @@
 token
-Classification/work
-Detection/work
-Segmentation/work
+classification/work
+detection/work
+segmentation/work
 ImageGeneration/work
 StyleTransfer/work
