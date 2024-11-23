@@ -27,7 +27,7 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 | Valid | 0.928* (0.868) | 0.987* (0.962) | 0.978* (0.927) | 0.636* (0.287) |
 | Test | 0.963* (0.862) | 0.975* (0.940) | 0.982* (0.920) | 0.587* (285) |
 
-**Table 1. Summary of various metrics on train/validation/test dataset.**
+**Table 1. Summary of various metrics on train/validation/test dataset from fintuned YOLO model. The metrics inside the brakets are from  the model before finetuning for comparison.**
 
 <img src="figures/PennPed00029.png" height="300" />    <img src="figures/PennPed00061.png" height="300" />
 
