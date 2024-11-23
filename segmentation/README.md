@@ -1,5 +1,5 @@
 ## General
-This example demonstrates funetuning the YOLO model for object detection. 
+This example demonstrates funetuning the YOLO model for instance segmentation. 
 
 ## Dataset
 The dataset is the Penn-Fudan Database which consists of 170 pedestrian images collected from University of Pennsylvania and Fudan University.
@@ -7,7 +7,7 @@ The dataset is the Penn-Fudan Database which consists of 170 pedestrian images c
 Dataset link: https://www.cis.upenn.edu/~jshi/ped_html/
 
 ## Model
-The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralytics. The weights in detection head are finetuned for 100 epoches, with all other model parameters in the backbone frozen.
+The model is the YOLOv8 (You Only Look Once) with a segmentation head from Ultralytics. The weights in segmentatio head are finetuned for 100 epoches, with all other model parameters in the backbone frozen.
 
 ## Evaluation
 <img src="figures/map.png" width="400" />
