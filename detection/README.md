@@ -36,5 +36,6 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 The original YOLO model exhibits a good performance on the detection task. With finetuning on around 100 images, the model performance get a slight improvement as shown in Table 1. 
 
 ## Reference
-1. https://huggingface.co/docs/transformers/main/en/model_doc/vit
-2. Alexey, Dosovitskiy. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv: 2010.11929 (2020).
+1. https://docs.ultralytics.com
+2. Redmon, J. "You only look once: Unified, real-time object detection." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+3. 
