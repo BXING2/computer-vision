@@ -38,4 +38,3 @@ The original YOLO model exhibits a good performance on the detection task. With 
 ## Reference
 1. https://docs.ultralytics.com
 2. Redmon, J. "You only look once: Unified, real-time object detection." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
-3. 
