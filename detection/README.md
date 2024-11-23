@@ -29,7 +29,7 @@ The model is the YOLOv8 (You Only Look Once) with a detection head from Ultralyt
 
 **Table 1. Summary of various metrics on train/validation/test dataset.**
 
-<img src="figures/PennPed00029.png" width="400" /> <img src="figures/PennPed00061.png" width="400" />
+<img src="figures/PennPed00029.png" height="300" /> <img src="figures/PennPed00061.png" height="300" />
 
 **Figure 2. Examples of pedestrian detection on the test dataset.**
 
