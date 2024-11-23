@@ -23,7 +23,7 @@ The model is the YOLOv8 (You Only Look Once) with a segmentation head from Ultra
 
 **Table 1. Summary of various metrics on train/validation/test dataset from fintuned YOLO model. The metrics inside the brakets are from  the model before finetuning for comparison.**
 
-<img src="figures/PennPed00029.png" height="300" />    <img src="figures/PennPed00061.png" height="300" />
+<img src="figures/PennPed00055.png" height="300" />    <img src="figures/FudanPed00074.png" height="300" />
 
 **Figure 2. Examples of pedestrian detection on the test dataset.**
 
