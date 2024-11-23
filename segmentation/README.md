@@ -27,7 +27,7 @@ The model is the YOLOv8 (You Only Look Once) with a segmentation head from Ultra
 
 **Figure 2. Examples of instance segmentation of pedestrians on the test dataset.**
 
-With finetuning on around 100 images, the model shows improvement on different metrics including precision, recall, mAP50 and mAP50-95, etc. Notably, mAP50-95 improves from 0.285 to 0.587 on the test dataset, which indicates a great improvement on the model prediction performance as the IOU (intersection over union) threshold increases.
+With finetuning on around 100 images, the model shows improvement on different metrics including precision, recall, mAP50 and mAP50-95, etc. Notably, mAP50-95 improves from 0.285 to 0.587 on the test dataset after finetuning, which indicates a great improvement on the model prediction performance as the IOU (intersection over union) threshold increases.
 
 ## Reference
 1. https://docs.ultralytics.com
