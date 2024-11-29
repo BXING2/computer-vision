@@ -16,7 +16,13 @@ The model is PPO (Proximal Policy Optimization) which belongs to policy gradient
 |---|---|---|---|---|---|
 | <img src="figures/noise_image_0.tif" /> | <img src="figures/noise_image_100.tif" /> | <img src="figures/noise_image_200.tif" /> | <img src="figures/noise_image_300.tif" /> | <img src="figures/noise_image_400.tif" /> | <img src="figures/noise_image_500.tif" /> |
 
-**Figure 1. Average return and number of steps during training.**
+**Figure 1. Forward process of adding noises incrementally to the original image.**
+
+| Timestep=500 | Timestep=400 | Timestep=300 | Timestep=200 | Timestep=100 | Timestep=0 |
+|---|---|---|---|---|---|
+| <img src="figures/denoise_image_500.tif" /> | <img src="figures/denoise_image_400.tif" /> | <img src="figures/denoise_image_300.tif" /> | <img src="figures/denoise_image_200.tif" /> | <img src="figures/denoise_image_100.tif" /> | <img src="figures/denoise_image_0.tif" /> |
+
+**Figure 1. Backward process of removing noises incrementally from the pure noisy image followig normal distribution.**
 
 | Test Return | Test Step Count |
 |---|---|
