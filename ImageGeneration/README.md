@@ -7,7 +7,7 @@ The dataset is CIFAR-10 from Torchvision. It consists of a train subset with 50K
 Dataset Link: https://pytorch.org/vision/0.19/generated/torchvision.datasets.CIFAR10.html
 
 ## Model
-The model is PPO (Proximal Policy Optimization) which belongs to policy gradient algorithm. It consists of an actor model and critic model. The actor model approximates a policy function for generating the action distributions. The critic model approximates a value function for evaluating the goodness of the selected action given the state. The model is optimized on the clipped surrogate objective function to avoid rapid updates on the parameters. For each iteration, a number of trajectories (a sequence of states and actions) are generated based on the current policy. Using quantities including action probalities, advantages, predicted values and returns, the policy and value model parameters are optimized. The updated policy is used again to generate new trajectories for the optimizetion at the next iteration.
+The model is denoising diffusion probabilistic model, or diffusion model, which mainly includes a forward process and a backward process. The forward process adds guassian noises to the original images. The backward process predicts and removes the noises incrementally, converting pure noisy images into clean images. In this example, the U-net is applied to predict the noises during the backward processes. During training, a random noise at a random timestep is firstly added to the image, and the U-net is trained to predict that noise given the nosiy image and the timestep. During inference, the backward process last for 500 steps. At each step except for the final step, part of noise are removed with a new random guassian noise added.  
 
 ## Evaluation
 
