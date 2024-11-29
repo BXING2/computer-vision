@@ -7,7 +7,7 @@ The dataset is CIFAR-10 from Torchvision. It consists of a train subset with 50K
 Dataset Link: https://pytorch.org/vision/0.19/generated/torchvision.datasets.CIFAR10.html
 
 ## Model
-The model is denoising diffusion probabilistic model, or diffusion model, which mainly includes a forward process and a backward process. The forward process adds guassian noises to the original images. The backward process predicts and removes the noises incrementally, converting pure noisy images into clean images. In this example, the U-net is applied to predict the noises during the backward processes. During training, a random noise at a random timestep is firstly added to the image, and the U-net is trained to predict that noise given the nosiy image and the timestep. During inference, the backward process last for 500 steps. At each step except for the final step, part of noise are removed with a new random guassian noise added.  
+The model is denoising diffusion probabilistic model, or diffusion model, which mainly includes a forward process and a backward process. The forward process adds guassian noises to the original images. The backward process predicts and removes the noises incrementally, converting pure noisy images into clean images. In this example, the U-net is applied to predict the noises during the backward processes. During training, a random noise at a random timestep is firstly added to the image, and the U-net is trained to predict that noise given the nosiy image and the timestep. During inference, the backward process last for 500 steps. At each step except for the final step, part of noise is removed with a new random guassian noise added.  
 
 ## Evaluation
 
@@ -41,6 +41,4 @@ The model is denoising diffusion probabilistic model, or diffusion model, which 
 Figure 1 shows the loss at different epoches on the train and validation dataset during training. Figure 2, 3 demonstrates the forward and backward process of the diffusion model. In the forward process, guassian nosies are incrementally added to the original clean images, which eventually turn into pure noises. In the backward process, the noises are gradually removed so that the images transform from pure noises into clean images. Figure 4 illustrates the 100 real images from the original dataset and 100 fake images generated from the diffusion model. Figure 5 shows the dependence of FID score on the number real/fake images used for the calculation. The FID gradually decreases and converges as the number of the images increases. The final FID score on the entire test dataset is 44.
 
 ## Reference
-1. https://gymnasium.farama.org/index.html
-2. Schulman, John, et al. "Proximal policy optimization algorithms." arXiv preprint arXiv:1707.06347 (2017).
-3. https://pytorch.org/tutorials/intermediate/reinforcement_ppo.html
+1. Ho, Jonathan, Ajay Jain, and Pieter Abbeel. "Denoising diffusion probabilistic models." Advances in neural information processing systems 33 (2020): 6840-6851.
