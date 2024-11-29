@@ -36,11 +36,9 @@ The model is PPO (Proximal Policy Optimization) which belongs to policy gradient
 
 <img src="figures/fid_score.tif" width="500" />
 
-**Figure 4. FID score calculated from various number of real and fake images.**
+**Figure 5. FID score calculated from various number of real and fake images.**
 
-Figure 1,2 shows the average return and number of steps during training and testing stages. During training, the actor model is saved every 10 iterations. During testing, each saved model is used to generated 100 trajectories, each of which has at most 1000 steps. The average returns and number of steps are shown in Figure 2 for various checkpoints, indicating the enhanced model performance with the increasing of training iterations. 
-
-The Video 1 shows two videos recording the movements of the inverted double pendulum from the model trained for 40 and 90 iterations, respectively. After training for 40 iterations (left video), the double pendulum can maintain stable within few steps but eventaully fails. However, after training for 90 iterations (right video), the double pendulum keeps stable during the 1000 steps applied.
+Figure 1 shows the loss at different epoches on the train and validation dataset during training. Figure 2, 3 demonstrates the forward and backward process of the diffusion model. In the forward process, guassian nosies are incrementally added to the original clean images, which eventually turn into pure noises. In the backward process, the noises are gradually removed so that the images transform from pure noises into clean images. Figure 4 illustrates the 100 real images from the original dataset and 100 fake images generated from the diffusion model. Figure 5 shows the dependence of FID score on the number real/fake images used for the calculation. The FID gradually decreases and converges as the number of the images increases. The final FID score on the entire test dataset is 44.
 
 ## Reference
 1. https://gymnasium.farama.org/index.html
