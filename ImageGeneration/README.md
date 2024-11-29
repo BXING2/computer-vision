@@ -1,5 +1,5 @@
 ## General
-This example demonstrates training uni-agent system using reinforcement learning algorithms. 
+This example demonstrates image generations using diffusion models. 
 
 ## Dataset
 The simulation environment is Inverted Double Pendulum of gymnasium from OpenAI. The observations are 9 dimensional which consider the cart position/velocity, cart-pole angle/angle velocity, pole-pole angle/angle velocity, etc. The actions are 1 dimensional which consider the force applied on the cart. The reward consists of three parts: (1) alive bonus accounts for how long the system survives, (2) distance penalty accounts for the penalty from the second pendulum movements, (3) velocity penalty accounts for the penalty from large angular velocities. 
@@ -12,9 +12,9 @@ Simulation Environment Link: https://gymnasium.farama.org/index.html
 The model is PPO (Proximal Policy Optimization) which belongs to policy gradient algorithm. It consists of an actor model and critic model. The actor model approximates a policy function for generating the action distributions. The critic model approximates a value function for evaluating the goodness of the selected action given the state. The model is optimized on the clipped surrogate objective function to avoid rapid updates on the parameters. For each iteration, a number of trajectories (a sequence of states and actions) are generated based on the current policy. Using quantities including action probalities, advantages, predicted values and returns, the policy and value model parameters are optimized. The updated policy is used again to generate new trajectories for the optimizetion at the next iteration.
 
 ## Evaluation
-| Train Return | Train Step Count |
-|---|---|
-| <img src="figures/train_return.png" /> | <img src="figures/train_step_count.png" /> |
+| Timestep=0 | Timestep=100 | Timestep=200 | Timestep=300 | Timestep=400 | Timestep=500 |
+|---|---|---|---|---|---|
+| <img src="figures/noise_image_0.tif" /> | <img src="figures/noise_image_100.tif" /> | <img src="figures/noise_image_200.tif" /> | <img src="figures/noise_image_300.tif" /> | <img src="figures/noise_image_400.tif" /> | <img src="figures/noise_image_500.tif" /> |
 
 **Figure 1. Average return and number of steps during training.**
 
