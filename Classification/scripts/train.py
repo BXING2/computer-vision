@@ -3,10 +3,6 @@ import time
 import numpy as np
 
 import torch
-import torchvision
-from torchvision.transforms import v2
-
-from torchvision.io import read_image
 
 import utils
 
