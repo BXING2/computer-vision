@@ -41,11 +41,8 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 
 **Video 1. Generated fake natural photos (left) and monet paintings (right) after different number of iterations.**
 
+Figure 1 shows the generator and discriminator loss (both loss are averaged over two generators/discriminators). Figure 2 shows the FID scores for two groups of images after different number of iterations. For FID score of monet paintings, it is calculated from the embeddings (obtained from inception-v3 model) of real paintings and fake paintings generated from photos. For FID score of natural photos, it is calculated from the embeddings of real photos and fake photos generated from paintings. Both scores decrease as the number of iterations increases, indicating a increasing similarity between real and fake images. The black dashed line represents the FID score from the two groups of real images as a benchmark. Figure 3, 4 exhibits some examples of real paintings/fake photos and real photos/fake paintings. The video demonstrates how the generated fake images change as the number of iteration increases. 
 
-
-
-
-Via finetuning the classification head, the model achieve an accuracy of 95.7% on the test dataset.
 
 ## Reference
 1. https://huggingface.co/docs/transformers/main/en/model_doc/vit
