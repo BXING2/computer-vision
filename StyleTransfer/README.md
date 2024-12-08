@@ -16,6 +16,12 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 
 **Figure 1. Generator and discriminator loss on the train dataset at different epochs.**
 
+|FID for Monet paintings|FID for natural photos|
+|---|---|
+|<img src="figures/fid_fake_1.tif" /> | <img src="figures/fid_fake_2.tif" /> |
+
+**Figure 1. FID scores on the test dataset for Monet paintings (left) and natural photos (right) after different number of iterations .**
+
 
 <img src="figures/conf_matrix.tif" width="400" />
 
