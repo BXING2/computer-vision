@@ -34,18 +34,20 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 
 **Figure 3. Examples of real natural photos (left) and corresponding fake monet paintings (right) generated from the GAN generator.**
 
-<img src="figures/conf_matrix.tif" width="400" />
+|Real Natural Photos|Fake Monet Paintings|
+|---|---|
+|<img src="figures/real_2.tif" /> | <img src="figures/fake_1.tif" /> |
 
-**Figure 2. Confusion matrix for 10 classes on the test dataset.**
+**Figure 3. Examples of real natural photos (left) and corresponding fake monet paintings (right) generated from the GAN generator.**
 
 
-| | Accuracy | Precison | Recall | F1 | 
-| --- | --- | --- | --- | --- |
-| Train | 0.987 | 0.986 | 0.986 | 0.986 |
-| Validation | 0.955 | 0.954 | 0.954 | 0.954 |
-| Test | 0.957 | 0.955 | 0.955 | 0.955 |
+https://github.com/user-attachments/assets/5c73bb6a-8d42-4288-a3ca-b6b5abff6e19
 
-**Table 1. Summary of various metrics on train/validation/test dataset.**
+
+
+
+https://github.com/user-attachments/assets/3022f4b4-bee9-4c99-a5a5-c0c950d07b24
+
 
 
 Via finetuning the classification head, the model achieve an accuracy of 95.7% on the test dataset.
