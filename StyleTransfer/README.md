@@ -1,14 +1,18 @@
 ## General
-This example mainly demonstrates the process of funetuning vision transformer model for classification tasks. 
+This example demonstrates training CycleGAN model for style transfer between two groups of images. 
 
 ## Dataset
-The dataset is from Torchvison (https://pytorch.org/vision/main/generated/torchvision.datasets.EuroSAT.html) which consists of satellite land images with ten classes.
+The dataset has around 1K Monet paintings and 7K natural photos. 1K paintings and 1K photos are used for training the model. The test dataset has 120 paints and 120 photos for evaluating the model performance. The image dimension is 256x256x3.
+
+Dataset Link: https://www.kaggle.com/datasets/balraj98/monet2photo/data
 
 ## Model
-The model is the vision transformer (ViT) with a classification head (ViTForImageClassification). The classification layer weights are finetuned for 50 epoches, with all other model parameters frozen.
+The model is CycleGAN which consists of two GAN (Generative adversarial network) models. Each GAN model has one generator for converting images from one style to another, and one discriminator for judging if the images are real or fake. The adversarial loss is mse loss for generator and discriminator. In addition, the generator also has a identity loss and cycle loss which is described by l1loss. 
 
 ## Evaluation
-<img src="figures/train_valid_loss.png" width="400" /> <img src="figures/train_valid_acc.png" width="400" />
+|||
+|---|---|
+|<img src="figures/generator_loss.tif" width="400" /> | <img src="figures/discriminator_loss.tif" width="400" /> |
 
 **Figure 1. Loss and accuracy on the train and valiation dataset.**
 
