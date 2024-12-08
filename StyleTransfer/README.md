@@ -20,7 +20,7 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 |---|---|
 |<img src="figures/fid_fake_1.tif" /> | <img src="figures/fid_fake_2.tif" /> |
 
-**Figure 1. FID scores on the test dataset for Monet paintings (left) and natural photos (right) after different number of iterations .**
+**Figure 1. FID scores on the test dataset for Monet paintings (left) and natural photos (right) after different number of iterations. The dashed line represents the FID score between the real Monet paintings and real natural photos.**
 
 
 <img src="figures/conf_matrix.tif" width="400" />
