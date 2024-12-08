@@ -20,14 +20,19 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 |---|---|
 |<img src="figures/fid_fake_1.tif" /> | <img src="figures/fid_fake_2.tif" /> |
 
-**Figure 1. FID scores on the test dataset for Monet paintings (left) and natural photos (right) after different number of iterations. The dashed line represents the FID score between the real Monet paintings and real natural photos.**
+**Figure 2. FID scores on the test dataset for Monet paintings (left) and natural photos (right) after different number of iterations. The dashed line represents the FID score between the real Monet paintings and real natural photos.**
 
 |Real Monet Paintings|Fake Natural Photos|
 |---|---|
 |<img src="figures/real_1.tif" /> | <img src="figures/fake_2.tif" /> |
 
-**Figure 1. FID scores on the test dataset for Monet paintings (left) and natural photos (right) after different number of iterations. The dashed line represents the FID score between the real Monet paintings and real natural photos.**
+**Figure 3. Examples of real monet paintings (left) and corresponding fake natural photos (right) generated from the GAN generator.**
 
+|Real Natural Photos|Fake Monet Paintings|
+|---|---|
+|<img src="figures/real_2.tif" /> | <img src="figures/fake_1.tif" /> |
+
+**Figure 3. Examples of real natural photos (left) and corresponding fake monet paintings (right) generated from the GAN generator.**
 
 <img src="figures/conf_matrix.tif" width="400" />
 
