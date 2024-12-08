@@ -42,7 +42,7 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 
 | Fake Natural Photo Generation | Fake Monet Painting Generation |
 |---|---|
-|<video src="https://github.com/user-attachments/assets/3022f4b4-bee9-4c99-a5a5-c0c950d07b24" height="200"></video> | <video src=https://github.com/user-attachments/assets/5c73bb6a-8d42-4288-a3ca-b6b5abff6e19 height="200"></video> |
+|<video src="https://github.com/user-attachments/assets/3022f4b4-bee9-4c99-a5a5-c0c950d07b24" ></video> | <video src=https://github.com/user-attachments/assets/5c73bb6a-8d42-4288-a3ca-b6b5abff6e19 ></video> |
 
 **Video 1. Movements of inverted double pendulum from models after training for 40 iterations (left) and 90 iterations (right).**
 
