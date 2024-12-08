@@ -7,7 +7,7 @@ The original dataset has around 1K Monet paintings and 7K natural photos. 1K pai
 Dataset Link: https://www.kaggle.com/datasets/balraj98/monet2photo/data
 
 ## Model
-The model is CycleGAN which consists of two GAN (Generative adversarial network) models. Each GAN model has one generator for converting images from one style to another, and one discriminator for judging if the images are real or fake. The adversarial loss is mse loss for generator and discriminator. In addition, the generator has a identity loss and cycle loss which is described by l1loss. 
+The model is CycleGAN which consists of two GAN (Generative adversarial network) models. Each GAN model has one generator for converting images from one style to another, and one discriminator for judging if the images are real or fake. The adversarial loss is mse loss for generator and discriminator. In addition, the generator has a identity loss and cycle loss which is described by l1loss. The model is trained for 20 epochs.
 
 ## Evaluation
 |Generator Loss|Discriminator Loss|
@@ -45,5 +45,6 @@ Figure 1 shows the generator and discriminator loss (both loss are averaged over
 
 
 ## Reference
-1. https://huggingface.co/docs/transformers/main/en/model_doc/vit
-2. Alexey, Dosovitskiy. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv: 2010.11929 (2020).
+1. Goodfellow, Ian, et al. "Generative adversarial networks." Communications of the ACM 63.11 (2020): 139-144.
+2. Zhu, Jun-Yan, et al. "Unpaired image-to-image translation using cycle-consistent adversarial networks." Proceedings of the IEEE international conference on computer vision. 2017.
+
