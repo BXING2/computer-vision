@@ -12,9 +12,9 @@ The model is CycleGAN which consists of two GAN (Generative adversarial network)
 ## Evaluation
 |Generator Loss|Discriminator Loss|
 |---|---|
-|<img src="figures/generator_loss.tif" width="400" /> | <img src="figures/discriminator_loss.tif" width="400" /> |
+|<img src="figures/generator_loss.tif" /> | <img src="figures/discriminator_loss.tif" /> |
 
-**Figure 1. Loss and accuracy on the train and valiation dataset.**
+**Figure 1. Generator and discriminator loss on the train dataset at different epochs.**
 
 
 <img src="figures/conf_matrix.tif" width="400" />
